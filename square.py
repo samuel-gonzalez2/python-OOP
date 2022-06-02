@@ -15,3 +15,5 @@ class Square(Rectangle):
     def __str__(self) -> str:
         return f'Square[side = {self._width}, color = {self._color}, filled = {self._filled}]'
 
+square = Square(4)
+print(square)

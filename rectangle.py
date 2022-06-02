@@ -21,3 +21,6 @@ class Rectangle(Shape):
     
     def __str__(self) -> str:
         return f'Rectangle[width = {self._width}, length = {self._length}, color = {self._color}, filled = {self._filled}]'
+
+rectangle = Rectangle(4, 5)
+print(rectangle)

@@ -21,3 +21,6 @@ class Circle(Shape):
     
     def __str__(self) -> str:
         return f'Circle[radius = {self._radius}, color = {self._color}, filled = {self._filled}]'
+
+circle = Circle(4)
+print(circle)
