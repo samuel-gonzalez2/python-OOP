@@ -3,7 +3,7 @@
 from shape import Shape
 
 class Circle(Shape):
-    def __init__(self, radius:float, color:str = "red", filled:bool = True):
+    def __init__(self, radius:float=1.0, color:str = "red", filled:bool = True):
         super().__init__(color, filled)
         self._radius = radius
         
